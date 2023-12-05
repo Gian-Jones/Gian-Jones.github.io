@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+    line-height: 23px;
+}
+body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+.main-content {
+    flex-basis: 70%;
+}
+
+.main-left-nav {
+    flex-basis: 25%;
+}
+
+ul li {
+    line-height: 1.7em;
+}
