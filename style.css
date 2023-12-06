@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .main-content {
@@ -21,9 +22,16 @@ body {
 }
 
 .main-left-nav {
-    flex-basis: 25%;
+    flex-basis: 30%;
 }
 
 ul li {
     line-height: 1.7em;
+}
+
+@media screen and (max-width: 740px) {
+    .main-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
